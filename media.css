@@ -359,51 +359,51 @@
     }
     .lusinner h4 .blue1{
         position: relative;
-        left: 130px;
+        left: 110px;
     }
     .lusinner h4 .blue2{
         position: relative;
-        left: 142px;
+        left: 122px;
     }
     .lusinner h4 .red1{
         position: relative;
-        left: 95px;
+        left: 75px;
     }
     .lusinner h4 .red2{
         position: relative;
-        left: 52px;
+        left: 32px;
     }
     .lusinner1 h4 .blue1{
         position: relative;
-        left: 130px;
+        left: 110px;
     }
     .lusinner1 h4 .blue2{
         position: relative;
-        left: 142px;
+        left: 122px;
     }
     .lusinner1 h4 .blue3{
         position: relative;
-        left: 95px;
+        left: 75px;
     }
     .lusinner1 h4 .red2{
         position: relative;
-        left: 52px;
+        left: 32px;
     }
     .lusinner2 h4 .blue1{
         position: relative;
-        left: 130px;
+        left: 110px;
     }
     .lusinner2 h4 .blue2{
         position: relative;
-        left: 142px;
+        left: 122px;
     }
     .lusinner2 h4 .blue3{
         position: relative;
-        left: 95px;
+        left: 75px;
     }
     .lusinner2 h4 .blue4{
         position: relative;
-        left: 52px;
+        left: 32px;
     }
     /* quote */
     .quotecontainer{
@@ -557,7 +557,6 @@
     /* footer */
     .footcontainer{
         height: 122rem;
-        border: 2px solid red;
     }
     .footsection{
         display: inline-block;
@@ -575,18 +574,31 @@
     }
     .contents-1{
         position: relative;
-        height: 400px;
+        height: 350px;
         width: 90%;
         left: 5%;
-        border: 3px solid red;
+    }
+    .contents-1 p{
+        position: relative;
+        top: 0px;
+        font-size: 15px;
     }
     .ord{
         position: relative;
+        top: 20px;
         left: 25%;
     }
     .ord1{
         position: relative;
+        top: 0px;
         left: 15px;
+    }
+    .ord1 input{
+        height: 30px;
+
+    }
+    .ord2{
+        height: 30px;
     }
     
     .contents-2{
