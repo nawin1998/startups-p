@@ -1,0 +1,639 @@
+@media only screen and (min-width: 200px) and (max-width: 912px){
+    .header{
+        display: none;
+    }
+    .nav{
+        position: sticky;
+        top: 0;
+        height: 90px;
+        width: 100%;
+        z-index: 2;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .navbar-brand{
+        position: relative;
+        display: flex;
+        left: 30px;
+    }
+    .navbar-nav{
+        position: relative;
+        background-color: #f20c0c;
+        width: 20rem;
+        height: 35.5rem;
+        left: 0px;
+        top: 76px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .checkbtn{
+        position: relative;
+        display: block;
+        height: 43px;
+        width: 48px;
+        right: 45px;
+        padding-left: 8px;
+        font-size: 35px;
+        color: #06a3da;
+        border: 1px solid #06a3da;
+    }
+    #check:checked ~ #icon{
+        display: inline-block;
+    }
+    /* home */
+    .Homecontainer{
+        position: relative;
+        height: 23.3rem;
+        width: 100%;
+    }
+    .slide1{
+        position: relative;
+        background-image: url(images/carousel-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .slide2{
+        background-image: url(images/carousel-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .slidedata{
+        position: absolute;
+        height: 170px;
+        width: 100%;
+        top: 28%;
+        text-align: center;
+    }
+    .slidedata h5{
+        width: 100%;
+        font-size: 17px;
+        font-weight: 5;
+    }
+    .slidedata h1{
+        position: relative;
+        height: 30px;
+        width: 100%;
+        top: 20px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .slidedata .b2{
+        position: relative;
+        height: 30px;
+        width: 120px;
+        top: 65px;
+        right: 10px;
+    }
+    .slidedata .b3{
+        position: relative;
+        height: 30px;
+        width: 120px;
+        top: 65px;
+        left: 10px;
+    }
+    .slider .arrows{
+        position: absolute;
+        top: 10rem;
+        color: #06a3da;
+        font-weight: 100;
+    }
+    .boxcontainer{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        bottom: 100px;
+        z-index: 1;
+    }
+    .boxcount{
+        display: block;
+    }
+    .box1{
+        width: 70%;
+        height: 150px;
+        background-color: #19a4d8;
+    }
+    .box1 .logom i{
+        position: relative;
+        left: 50px;
+    }
+    .box2{
+        width: 70%;
+        height: 150px;
+        background-color: #ffff;
+    }
+    .box3{
+        width: 70%;
+        height: 150px;
+        background-color: #19a4d8;
+    }
+    /* about */
+    .Aboutcontainer{
+        position: relative;
+        height: 70rem;
+    }
+    .aboutsection{
+        display: inline-block;
+    }
+    .ab1{
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+    .ab1 h1{
+        width: 65%;
+        font-size: 24px;
+    }
+    .animation{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .ab1 p{
+        position: relative;
+        width: 90%;
+        top: 25px;
+        padding-right: 1rem;
+        font-size: 14px;
+    }
+    .title1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        top: 30px;
+    }
+    .hod1 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .hod2{
+        position: relative;
+        top: 60px;
+    }
+    .hod2 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .title2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        margin-top: 35px;
+    }
+    .hod3 h4{
+        font-size: 22px;
+        width: 200%;
+    }
+    .hod4{
+        position: relative;
+        top: 60px;
+    }
+    .hod4 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .box4{
+        position: relative;
+        height: 100px;
+        width: 90%;
+        left: 23px;
+        top: 30px;
+    }
+    .b4{
+        position: relative;
+        top: 30px;
+        left: 35px;
+    }
+    .aboutpic{
+        position: relative;
+        height: 375px;
+        width: 90%;
+        left: 5%;
+    }
+    .aboutpic img{
+        height: 375%;
+        width: 100%;
+    }
+    /* choose */
+    .Choosecontainer{
+        height: 105rem;
+    }
+    .heading3{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading3 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation1{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .choosey{
+        display: block;
+    }
+    .card1{
+        width: 100%;
+    }
+    .picture{
+        height: 350px;
+        width: 90%;
+        left: 5%;
+        bottom: 10px;
+    }
+    .picture img{
+        position: relative;
+        height: 350px;
+        width: 90%;
+        left: 5%;
+    }
+    .bloc{
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+    /* services */
+    .servicecontainer{
+        height: 120rem;
+        
+    }
+    .heading4{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading4 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .ser-card1{
+        display: block;
+    }
+    .ser-card2{
+        position: relative;
+        width: 90%;
+        left: 3%;
+        bottom: 80px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .ser-card3{
+        display: block;
+    }
+    .ser-card4{
+        position: relative;
+        width: 90%;
+        top: 470px;
+        left: 3%;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    /* plan */
+    .plancontainer{
+        height: 108rem;
+    }
+    .heading5{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading5 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .lustom{
+        display: block;
+        margin-top: 5px;
+    }
+    .lustom1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+    }
+    .lustom2{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+        border: 1px solid #808080;
+    }
+    .lustom3{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 80px;
+    }
+    .lusinner h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner1 h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner2 h1 .tur{
+        font-size: 35px;
+    }
+    .lusinner h4 .blue1{
+        position: relative;
+        left: 130px;
+    }
+    .lusinner h4 .blue2{
+        position: relative;
+        left: 142px;
+    }
+    .lusinner h4 .red1{
+        position: relative;
+        left: 95px;
+    }
+    .lusinner h4 .red2{
+        position: relative;
+        left: 52px;
+    }
+    .lusinner1 h4 .blue1{
+        position: relative;
+        left: 130px;
+    }
+    .lusinner1 h4 .blue2{
+        position: relative;
+        left: 142px;
+    }
+    .lusinner1 h4 .blue3{
+        position: relative;
+        left: 95px;
+    }
+    .lusinner1 h4 .red2{
+        position: relative;
+        left: 52px;
+    }
+    .lusinner2 h4 .blue1{
+        position: relative;
+        left: 130px;
+    }
+    .lusinner2 h4 .blue2{
+        position: relative;
+        left: 142px;
+    }
+    .lusinner2 h4 .blue3{
+        position: relative;
+        left: 95px;
+    }
+    .lusinner2 h4 .blue4{
+        position: relative;
+        left: 52px;
+    }
+    /* quote */
+    .quotecontainer{
+        height: 72rem;
+    }
+    .quotesection{
+        display: block;
+    }
+    .ab2{
+        position: relative;
+        width: 100%;
+        top: 10px;
+    }
+    .ab2 h1{
+        width: 65%;
+        font-size: 24px;
+    }
+    .animation{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .ab2 p{
+        position: relative;
+        width: 90%;
+        top: 25px;
+        padding-right: 1rem;
+        font-size: 14px;
+    }
+    .title5{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        width: 80%;
+        top: 30px;
+    }
+    .hod5 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .hod6{
+        position: relative;
+        top: 60px;
+    }
+    .hod6 h4{
+        font-size: 22px;
+        width: 100%;
+    }
+    .box5{
+        position: relative;
+        height: 100px;
+        width: 90%;
+        left: 23px;
+        top: 40px;
+    }
+    .quotepic{
+        position: absolute;
+        width: 90%;
+        top: 494rem;
+        left: 5%;
+    }
+    /* testimonial */
+    .testimonialcontainer{
+        height: 40rem;
+        border: 2px solid red;
+    }
+    .heading6{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading6 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    /* team */
+    .teamcontainer{
+        height: 118rem;
+    }
+    .heading7{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading7 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .teamcard{
+        display: block;
+    }
+    .teamm1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 30px;
+    }
+    .teamm2{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 15px;
+    }
+    .teamm3{
+        position: relative;
+        width: 90%;
+        left: 5%;
+    }
+    /* blog */
+    .blogcontainer{
+        height: 117rem;
+    }
+    .heading8{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        left: 0;
+    }
+    .heading8 h1{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .animation2{
+        position: relative;
+        left: 32%;
+        top: 15px;
+    }
+    .blogcard{
+        display: block;
+    }
+    .blogcard1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        bottom: 50px;
+        margin-top: 20px;
+    }
+    /* footer */
+    .footcontainer{
+        height: 122rem;
+        border: 2px solid red;
+    }
+    .footsection{
+        display: inline-block;
+    }
+    .footpics img{
+        position: relative;
+        top: 0px;
+    }
+    .footer-content{
+        position: relative;
+        height: 98.5rem;
+        width: 100%;
+        top: 14rem;
+        background-color:  #0a1e3d;
+    }
+    .contents-1{
+        position: relative;
+        height: 400px;
+        width: 90%;
+        left: 5%;
+        border: 3px solid red;
+    }
+    .ord{
+        position: relative;
+        left: 25%;
+    }
+    .ord1{
+        position: relative;
+        left: 15px;
+    }
+    
+    .contents-2{
+        position: absolute;
+        width: 100%;
+        left: 0px;
+    }
+    .cont{
+        display: block;
+        width: 100%;
+        left: 0px;
+    }
+    .cont-1{
+        position: absolute;
+        width: 90%;
+        right: 100px;
+        top: 25rem;
+    }
+    .cont-1 h1{
+        font-size: 25px;
+    }
+    .cont-1 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
+    .cont-2{
+        position: relative;
+        width: 90%;
+        top: 45rem;
+        left: 30px;
+    }
+    .cont-3{
+        position: relative;
+        top: 45rem;
+        width: 90%;
+        left: 30px;
+    }
+    .cont-foot{
+        position: relative;
+        top: 7.7rem;
+    }
+
+
+
+
+
+
+
+
+}
