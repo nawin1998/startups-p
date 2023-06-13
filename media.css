@@ -28,6 +28,9 @@
         align-items: center;
         justify-content: center;
     }
+    body{
+        overflow-x: hidden;
+    }
     .checkbtn{
         position: relative;
         display: block;
@@ -85,16 +88,18 @@
     .slidedata .b2{
         position: relative;
         height: 30px;
-        width: 120px;
+        width: 70px;
         top: 65px;
         right: 10px;
+        font-size: 12px;
     }
     .slidedata .b3{
         position: relative;
         height: 30px;
-        width: 120px;
+        width: 70px;
         top: 65px;
         left: 10px;
+        font-size: 12px;
     }
     .slider .arrows{
         position: absolute;
@@ -567,7 +572,7 @@
     }
     .footer-content{
         position: relative;
-        height: 98.5rem;
+        height: 98.6rem;
         width: 100%;
         top: 14rem;
         background-color:  #0a1e3d;
@@ -630,15 +635,29 @@
         top: 45rem;
         left: 30px;
     }
+    .cont-2 h1{
+        font-size: 25px;
+    }
+    .cont-2 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
     .cont-3{
         position: relative;
         top: 45rem;
         width: 90%;
         left: 30px;
     }
+    .cont-3 h1{
+        font-size: 25px;
+    }
+    .cont-3 h4{
+        font-size: 18px;
+        font-weight: 10;
+    }
     .cont-foot{
         position: relative;
-        top: 7.7rem;
+        top: 7.8rem;
     }
 
 
